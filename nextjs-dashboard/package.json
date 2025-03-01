@@ -1,9 +1,15 @@
 {
+  "name": "nextjs-dashboard",
+  "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
